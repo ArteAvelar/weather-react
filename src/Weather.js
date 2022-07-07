@@ -1,4 +1,5 @@
 import React from "react";
+import Forecast from "./Forecast";
 
 export default function Weather(props) {
   return (
@@ -12,7 +13,12 @@ export default function Weather(props) {
           <div className="temperature-today">10°C /20°C</div>
         </div>
         <div className="col-2">
-          <i className="fa-solid fa-sun sun"></i>
+          <Forecast
+            icon="CLEAR_DAY"
+            color="goldenrod"
+            size="50"
+            animate="true"
+          />
         </div>
       </div>
     </div>

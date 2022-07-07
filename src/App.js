@@ -2,6 +2,7 @@ import "./styles.css";
 import Form from "./Form";
 import Heather from "./Header";
 import Weather from "./Weather";
+import Forecast from "./Forecast";
 
 export default function App() {
   return (
@@ -12,6 +13,56 @@ export default function App() {
             <Heather />
             <Form />
             <Weather city="Munich" />
+            <div className="row">
+              <div className="col-2">
+                <Forecast
+                  icon="CLEAR_DAY"
+                  color="goldenrod"
+                  size="50"
+                  animate="true"
+                />
+              </div>
+              <div className="col-2">
+                <Forecast
+                  icon="CLOUDY"
+                  color="goldenrod"
+                  size="50"
+                  animate="true"
+                />
+              </div>
+              <div className="col-2">
+                <Forecast
+                  icon="RAIN"
+                  color="goldenrod"
+                  size="50"
+                  animate="true"
+                />
+              </div>
+              <div className="col-2">
+                <Forecast
+                  icon="FOG"
+                  color="goldenrod"
+                  size="50"
+                  animate="true"
+                />
+              </div>
+              <div className="col-2">
+                <Forecast
+                  icon="CLEAR_DAY"
+                  color="goldenrod"
+                  size="50"
+                  animate="true"
+                />
+              </div>
+              <div className="col-2">
+                <Forecast
+                  icon="WIND"
+                  color="goldenrod"
+                  size="50"
+                  animate="true"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>
