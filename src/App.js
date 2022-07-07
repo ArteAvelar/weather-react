@@ -15,6 +15,8 @@ export default function App() {
           </div>
         </div>
       </div>
+      <a href="https://github.com/ArteAvelar/weather-react">Open source code</a>{" "}
+      by Artemisa Avelar
     </div>
   );
 }
