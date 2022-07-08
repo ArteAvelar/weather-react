@@ -1,5 +1,5 @@
 import "./styles.css";
-import Form from "./Form";
+
 import Heather from "./Header";
 import Weather from "./Weather";
 import Forecast from "./Forecast";
@@ -11,7 +11,7 @@ export default function App() {
         <div className="card">
           <div className="card-body">
             <Heather />
-            <Form />
+
             <Weather city="Munich" />
             <div className="row">
               <div className="col-2">
